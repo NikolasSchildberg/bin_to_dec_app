@@ -1,4 +1,4 @@
-import { ConversionForm } from "./ConversionForm";
+import { ConversionForm } from "./ConversionForm/";
 
 export function App(){
   return(
