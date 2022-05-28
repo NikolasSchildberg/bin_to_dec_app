@@ -1,7 +1,6 @@
 import { ArrowsHorizontal } from "phosphor-react";
 import { NumEntry } from "./NumEntry";
 import { SubmitButton } from "./SubmitButton";
-import { SubmitButton2 } from "./SubmitButton2";
 
 export function ConversionForm(){
     
@@ -16,7 +15,7 @@ export function ConversionForm(){
                     <ArrowsHorizontal size={32} className='mt-5'/>
                     <NumEntry displayThis='42' fieldName="Decimal"/>
                 </div>
-                <SubmitButton2 />
+                <SubmitButton />
             </form>
         </div>
     )
