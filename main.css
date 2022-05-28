@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-cool-1;
+    @apply text-gray-300;
+    @apply font-mono;
+}
